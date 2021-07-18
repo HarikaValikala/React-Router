@@ -26,7 +26,26 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
+
+.button{
+  width: 100px;
+  padding: 5px;
+}
+
+.ul-style {
+  display: flex;
+  flex-direction: row;
+} 
+
+.li-style {
+  width: 200px;
+  list-style-type: none;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
 
 @keyframes App-logo-spin {
   from {
